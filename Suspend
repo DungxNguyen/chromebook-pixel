@@ -1,0 +1,5 @@
+To fix error that can not suspend:
+
+  sudo modprobe tpm_tis force=1 interrupts=0
+
+https://bugs.chromium.org/p/chromium/issues/detail?id=221905
