@@ -1,0 +1,17 @@
+Upon first installation, plugging in a headphone, or any other audio device, the sound still comes through the main speakers. I'm sure there are a few different ways to remedy this, but for ease of use, here's one I found to be quick and painless.
+
+Install Qasmixer with: sudo apt-get install qasmixer
+
+Run it: qasmixer
+
+Top left of the GUI go to: View> Show Device Selection
+
+Then in the Mixer Device panel in the top right scroll down to sysdefault.
+
+In the bottom left click in the box for HP/Speaker Auto Detect
+
+Hope that helps someone out. Thanks.
+
+Great Gallium!
+
+https://www.reddit.com/r/GalliumOS/comments/3xe0rt/audio_output_jack_pixel_2013/
