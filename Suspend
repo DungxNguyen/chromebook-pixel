@@ -7,3 +7,7 @@ https://bugs.chromium.org/p/chromium/issues/detail?id=221905
 To load tpm_tis in boot
 
 create file /etc/sysconfig/modules/xyz.modules, make it runnable (chmod +x)
+
+
+Or create file in /etc/modules-load/tpm_tis.conf, which contains:
+tpm_tis
